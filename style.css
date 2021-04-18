@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  max-height: auto;
+  border: red solid 1px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  padding-right: 50px;
+}
+
+li {
+  float: right;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  float: left;
+  background: url("apple.png") no-repeat;
+  width: 60px;
+}
